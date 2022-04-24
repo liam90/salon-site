@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* BASE STYLES */
+body {
+    width: 100%;
+    font-size: 16px;
+    color: hsl(223, 89%, 21%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 5em;
+}
+
+
+li:hover {
+    padding-bottom: .5em;
+    border-bottom: solid thin hsl(223, 89%, 21%);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* LAYOUT */
+header {
+    width: 100%;
+    height: 80vh;
+    background-image: url(/assets/stylist__2.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 30em;
+    border-bottom-right-radius: 10em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 9vh;
+    margin-bottom: 6em;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.company {
+    font-size: 4em;
+    font-weight: 600;
+    font-family: 'Ms Madi', Arial, Helvetica, sans-serif;
+}
+
+.book__app {
+    font-weight: 600;
+}
+
+.fa-minus {
+    padding-right: 1em;
+}
+
+.fa-layers-counter {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(223, 89%, 21%);
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    color: hsl(0, 0%, 100%);
+}
+
+.content__left {
+    margin-left: 6em;
+}
+
+.content__right {
+    font-size: .7em;
+    transform: rotate(90deg);
+}
