@@ -27,8 +27,13 @@ h1 {
     line-height: 1.3;
 }
 
+h2 {
+    font-size: 3em;
+}
+
 ul {
     list-style: none;
+    margin-left: 12em;
 }
 
 li {
@@ -45,6 +50,12 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+img {
+    width: 12%;
+    margin-bottom: 1em;
+}
+
 /* LAYOUT */
 header {
     width: 100%;
@@ -53,13 +64,13 @@ header {
     background-position: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top-left-radius: 30em;
-    border-bottom-right-radius: 10em;
+    border-top-left-radius: 25em;
+    border-bottom-right-radius: 25em;
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 9vh;
@@ -115,7 +126,7 @@ nav {
 
 .pages {
     float: right;
-    margin-right: 9em;
+    margin-right: 12em;
     padding-top: 20em;
     color: var(--white__accent__clr);
 }
@@ -150,4 +161,73 @@ nav {
     padding: 1em 1em;
     background-color: var(--white__accent__clr);
     color: var(--primary__clr);
+}
+
+.beauty__services {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    padding-top: 6em;
+    padding-left: 9em;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 20vh;
+    text-align: center;
+    border-bottom: double medium var(--primary__clr);
+}
+
+main h3 {
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+main p {
+    line-height: 1.5;
+}
+
+.more__space {
+    margin-top: 1.5em;
+}
+
+.extra__space {
+    margin-top: 1em;
+}
+
+.momentum {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    border: solid thin black;
+}
+
+.momentum__content {
+    width: 30%;
+    height: 30vh;
+    border: solid thin black;
+}
+
+.momentum__content h2 {
+    width: 37%;
+    line-height: 1.3;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/service__volume.jpg);
+    background-position: calc();
+    width: 25%;
+    height: 30vh;
+    border: solid thin black;
 }
