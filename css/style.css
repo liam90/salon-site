@@ -310,3 +310,48 @@ main p {
     transform: translateY(2em);
     background-color: var(--btn__clr);
 }
+
+.haircut__discount {
+    width: 100%;
+    height: 60vh;
+    padding-top: 5em;
+}
+
+.haircut__content {
+    width: 90%;
+    height: 50vh;
+    margin-inline: auto;
+    background-image: url(/assets/style__1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 9em;
+    padding-top: 9em;
+}
+
+.color {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.ten {
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.color__highlight {
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.ten__off {
+    font-weight: 900;
+}
+
+.appointment {
+    padding: 1em 1.5em;
+    margin-top: 2em;
+    background-color: var(--btn__clr);
+    color: var(--white__accent__clr);
+}
