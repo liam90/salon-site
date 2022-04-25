@@ -29,6 +29,7 @@ h1 {
 
 h2 {
     font-size: 3em;
+    margin-bottom: .5em;
 }
 
 ul {
@@ -206,14 +207,12 @@ main p {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 60vh;
-    border: solid thin black;
+    height: 60vh;background-color: hsl(0, 0%, 90%);
 }
 
 .momentum__content {
     width: 30%;
     height: 30vh;
-    border: solid thin black;
 }
 
 .momentum__content h2 {
@@ -226,8 +225,88 @@ main p {
     justify-content: center;
     align-items: center;
     background-image: url(/assets/service__volume.jpg);
-    background-position: calc();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 25%;
     height: 30vh;
-    border: solid thin black;
+}
+
+.momentum__content p {
+    line-height: 1.5;
+    margin-bottom: 3em;
+
+}
+
+.read__more__btn {
+    background-color: var(--btn__clr);
+    color: var(--white__accent__clr);
+    padding: 1em;
+}
+
+
+.stylist{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.meet {
+    border-bottom: solid medium var(--primary__clr);
+}
+
+.stylist__1 {
+    width: 15%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--white__accent__clr);
+    background-image: url(/assets/style__2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stylist__2 {
+    width: 15%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--white__accent__clr);
+    background-image: url(/assets/stylist__1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stylist__3 {
+    width: 15%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--white__accent__clr);
+    background-image: url(/assets/stylist__2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 6vh;
+    margin: 0 auto;
+    transform: translateY(2em);
+    background-color: var(--btn__clr);
 }
