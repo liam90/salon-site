@@ -355,3 +355,78 @@ main p {
     background-color: var(--btn__clr);
     color: var(--white__accent__clr);
 }
+
+.our__look {
+    width: 100%;
+    /* height: 70vh; */
+    text-align: center;
+    padding-top: 3em;
+    background-color: hsl(0, 0%, 90%);
+}
+
+.our__look, .fa-minus {
+    padding-left: 1em;
+}
+
+.grid__container {
+    max-width: 90%;
+    margin: 1em auto;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+    gap: 1em;
+}
+
+.style__1 {
+    width: 100%;
+    height: 40vh;
+    background-image: url(/assets/style__1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.style__2 {
+    width: 100%;
+    height: auto;
+    grid-row: span 2;
+    background-image: url(/assets/style__2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.style__3 {
+    width: 100%;
+    height: 40vh;
+    background-image: url(/assets/style__3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.style__4 {
+    width: 100%;
+    height: auto;
+    grid-row: span 2;
+    background-image: url(/assets/style__4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.style__5 {
+    width: 100%;
+    height: auto;
+    grid-row: span 2;
+    background-image: url(/assets/stylist__1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.style__6 {
+    width: 100%;
+    height: 40vh;
+    background-image: url(/assets/stylist__2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
